@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can be added below this line */
+
+@layer base {
+    button {
+        @apply border border-black rounded-xl px-5 py-1
+    }
+}
